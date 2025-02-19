@@ -1,0 +1,7 @@
+import matplotlib.pyplot as plt
+import numpy as np
+t=np.arange(0,10,0.01)
+y=abs(np.sin(2*np.pi*t))
+#z=abs(y)
+plt.plot(t,y)
+plt.show()
